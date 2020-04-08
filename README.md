@@ -9,3 +9,5 @@
 - Click on the service and should get a screen like this with list of buckets(if you already have) otherwise an empty list of buckets:
 
 ![](aws2.png)
+
+- Add the Bucket name and select the appropriate region of bucket then you could go with ### Create Bucket
