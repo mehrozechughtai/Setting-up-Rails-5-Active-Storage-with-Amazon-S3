@@ -6,6 +6,6 @@
 - After Successfully login, Click on S3 option to create the S3 bucket
 ![](aws1.png)
 
-Click on the service and should get a screen like this with list of buckets(if you already have) otherwise an empty list of buckets:
+- Click on the service and should get a screen like this with list of buckets(if you already have) otherwise an empty list of buckets:
 
 ![](aws2.png)
