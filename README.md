@@ -56,4 +56,11 @@ amazon:
   
   ### For Production and Staging (config/environments/production.rb):
   ```config.active_storage.service = :amazon ```
-
+### Add the aws-sdk-s3 gem to your Gemfile:
+```
+.
+.
+gem "aws-sdk-s3", require: false
+.
+.
+```
