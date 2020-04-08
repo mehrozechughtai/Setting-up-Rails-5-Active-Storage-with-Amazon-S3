@@ -28,3 +28,23 @@
 - On the review screen click on Show in Secret access key column to see the value. Store both of these values: Access key ID and Secret access key in a safe place because we are going to need it to setup Active Storage on Rails later.
 
 ![](aws8.png)
+
+# Rails Setup
+
+## config/storage.yml
+```
+test:
+  service: Disk
+  root: <%= Rails.root.join("tmp/storage") %>
+
+local:
+  service: Disk
+  root: <%= Rails.root.join("storage") %>
+
+# Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
+amazon:
+  service: S3
+  access_key_id: ENV["access_key_id"]
+  secret_access_key: ENV["secret_access_key"]
+  region: "us-east-2"
+  bucket: "your-bucket-name" ```
