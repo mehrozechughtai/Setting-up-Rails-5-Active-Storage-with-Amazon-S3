@@ -48,3 +48,11 @@ amazon:
   secret_access_key: ENV["secret_access_key"]
   region: "us-east-2"
   bucket: "your-bucket-name" ```
+  
+  For app running on localhost:
+  In config/environments/development.rb
+  ``` config.active_storage.service = :local ```
+  
+  ### For Production and Staging (config/environments/production.rb):
+  ```config.active_storage.service = :amazon ```
+
