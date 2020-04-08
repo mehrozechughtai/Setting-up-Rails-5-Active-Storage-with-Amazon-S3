@@ -64,3 +64,10 @@ gem "aws-sdk-s3", require: false
 .
 .
 ```
+## Summing up:
+- Creating the Amazon’s S3 Bucket.
+- Add user policy to grant access to files.
+- Setup environment variables on Heroku.
+- Config storage.yml.
+- Config environments production.rb or staging.rb.
+- Use Active Storage to store files on Amazon’s S3 Bucket.
