@@ -10,4 +10,4 @@
 
 ![](aws2.png)
 
-- Add the Bucket name and select the appropriate region of bucket then you could go with ### Create Bucket
+- Add the Bucket name and select the appropriate region of bucket then you could go with **Create Bucket**
